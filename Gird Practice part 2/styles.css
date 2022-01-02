@@ -1,0 +1,166 @@
+.container{
+    display:grid;
+    grid-gap:10px;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:100px 100px 100px;
+    grid-template-areas:
+    "nav nav nav nav"
+    "sidebar content content sidebar2"
+    "footer footer footer footer"
+
+
+}
+nav{
+    background-color: aqua;
+    height:100fr;
+    grid-area: nav;
+    
+}
+.sidebar{
+    background-color: blue;
+    grid-area: sidebar;
+    height:100fr;
+}
+.sidebar2{
+    background-color: rgba(8, 221, 193, 0.863);
+    grid-area:sidebar2;
+    height: 100fr;
+}
+.content{
+    background-color: indigo;
+    grid-area:content;
+    height:100fr;
+}
+footer{
+    background-color: lightblue;
+    grid-area:footer;
+    height:100fr;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .container{
+        display:grid;
+        grid-gap:10px;
+        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:100px 100px 100px 100px 100px;
+        grid-template-areas:
+        "nav nav nav nav"
+        "sidebar sidebar sidebar sidebar"
+        "content content content content"
+        "sidebar2 sidebar2 sidebar2 sidebar2"
+        "footer footer footer footer"
+    
+    
+    }
+    nav{
+        background-color: aqua;
+        height:100fr;
+        grid-area: nav;
+        
+    }
+    .sidebar{
+        background-color: blue;
+        grid-area: sidebar;
+        height:100fr;
+    }
+    .sidebar2{
+        background-color: rgba(8, 221, 193, 0.863);
+        grid-area:sidebar2;
+        height: 100fr;
+    }
+    .content{
+        background-color: indigo;
+        grid-area:content;
+        height:100fr;
+    }
+    footer{
+        background-color: lightblue;
+        grid-area:footer;
+        height:100fr;
+    }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){
+    .container{
+        display:grid;
+        grid-gap:10px;
+        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:100px 100px 100px;
+        grid-template-areas:
+        "nav nav nav nav"
+        "sidebar content content sidebar2"
+        "footer footer footer footer"
+    
+    
+    }
+    nav{
+        background-color: aqua;
+        height:100fr;
+        grid-area: nav;
+        
+    }
+    .sidebar{
+        background-color: blue;
+        grid-area: sidebar;
+        height:100fr;
+    }
+    .sidebar2{
+        background-color: rgba(8, 221, 193, 0.863);
+        grid-area:sidebar2;
+        height: 100fr;
+    }
+    .content{
+        background-color: indigo;
+        grid-area:content;
+        height:100fr;
+    }
+    footer{
+        background-color: lightblue;
+        grid-area:footer;
+        height:100fr;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width:1024px){
+    .container{
+        display:grid;
+        grid-gap:10px;
+        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:100px 100px 100px 100px;
+        grid-template-areas:
+        "nav nav nav nav"
+        "sidebar content content content"
+        "sidebar2 sidebar2 sidebar2 sidebar2"
+        "footer footer footer footer"
+    
+    
+    }
+    nav{
+        background-color: aqua;
+        height:100fr;
+        grid-area: nav;
+        
+    }
+    .sidebar{
+        background-color: blue;
+        grid-area: sidebar;
+        height:100fr;
+    }
+    .sidebar2{
+        background-color: rgba(8, 221, 193, 0.863);
+        grid-area:sidebar2;
+        height: 100fr;
+    }
+    .content{
+        background-color: indigo;
+        grid-area:content;
+        height:100fr;
+    }
+    footer{
+        background-color: lightblue;
+        grid-area:footer;
+        height:100fr;
+    }
+
+}
